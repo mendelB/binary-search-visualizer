@@ -1,0 +1,16 @@
+.node {
+	float: left;
+	text-align: center;
+	height: 30px;
+	width: 30px;
+	margin: 5px;
+	border: 2px solid grey;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red; 
+}
