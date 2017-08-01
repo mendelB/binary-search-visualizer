@@ -3,7 +3,7 @@ function binarySearch(val, low, high) {
 	var interval = setInterval(function() {
 		if (low > high) {
 			clearInterval(interval)
-			return null
+			alert('No such number!')
 		} else {
 			tries++
 			var guess = Math.floor((low + high) / 2)
